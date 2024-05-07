@@ -1,0 +1,1535 @@
+ *{
+    margin: 0;
+    padding: o;
+ } 
+
+ @font-face {
+    font-family: "myfont";
+   src: url("JosefinSans-Regular.ttf");
+ }
+
+ @font-face {
+    font-family: "myfont2";
+   src: url("GreatVibes-Regular-webfont.ttf");
+ }
+ body {
+    
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  
+  .Navbar{
+  
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    margin-right: 50px;
+
+    .logo{
+        
+    position: absolute;
+    left: 28px;
+    top: 10px;
+      }
+      .purple{
+        color: #742296;
+        text-decoration: none;
+      }
+      i{
+        color: #742296;
+      }
+      .log{
+        margin-right: -166px;
+        justify-content: right;
+
+      }
+      .state{
+        font-size: 27px;
+        margin-top: 10px;
+        margin-left: 443px;
+        padding: 10px;
+      }
+      
+    
+
+    }
+
+    .home{
+        display: flex;
+        flex-direction: row;
+        margin-right: 45px;
+
+        .text{
+            width: 600px;
+            display: flex;
+            flex-direction: column;
+            margin-left: 80px;
+            margin-top: 89px;
+        }
+        .pox{
+            width: 30px;
+            height: 30px;
+          }
+        .h1{
+            font-family: "myfont";  
+            font-size: 40px;
+            font-weight: bolder;
+        }
+        .button1{
+            font-family: "myfont";
+            background-color:  #742296;
+            color: white;
+            padding: 0px;
+        }
+        .buttons{
+            display: flex;
+            flex-direction: row;
+            
+        }
+        p{
+            font-family: "myfont";  
+        }
+        .button2{
+            font-family: "myfont";
+            margin-left: 20px;
+            border-left: 6px solid #742296;
+            border-right: 6px solid #742296;
+            border-top: 3px solid #742296;
+            border-bottom: 3px solid #742296;
+            // border: 3px solid #742296;
+            // border-left: 6px;
+            // border-color:  #742296;
+            padding: 0px;
+        }
+        .photo2{
+            position: relative;
+            top: 45px;
+        }
+        .purple{
+            margin-top: 20px;
+            color:  #742296;
+        }
+        .pics{
+            display: flex;
+            flex-direction: column;
+            margin-left: 50px;
+            margin-right: 10px;
+        }
+        .photo{
+            height: 75vh;
+        }
+
+    }
+
+  .about{
+    padding-top: 150px;
+    margin-left: 65px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+    .h2{
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-left: -150px;
+        font-family: "myfont"; 
+    }
+    .pic{
+        width: 234px;
+    }
+    .phottoo{
+        position: relative;
+        right: 5px;
+        top: 60px;
+        width: 200px;
+    }
+    .sec2{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        margin-left: -183px;
+    
+         
+    }
+    p{
+        margin-top: 20px;
+        font-family: "myfont";   
+    }
+    .sec1{
+        margin-left: -45px;
+        display: flex;
+        flex-direction: column;
+        
+    } 
+    .click{
+        background-color:  #742296;
+            color: white;
+            padding: 5px;
+            width: 140px;
+            margin-top: 60px;
+    }
+    .play{
+        height: 300px;
+        width: 320px;
+        margin-top: 30px;
+        
+    
+    }
+    
+    .pics{
+        position: absolute;
+        height: 300px;
+        width: 320px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    
+    }
+    .youtube{
+        position: relative;
+        display: flex;
+    }
+    
+  }
+  .Services{
+    font-family: "myfont"; 
+    padding-top: 120px;
+    margin-left: 30px;
+    margin-right: 30px;
+    .head{
+        font-family: "myfont";
+        margin-left: 51px;
+        margin-bottom: 10px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .zvese{
+        margin-left: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        
+    }
+    .statement{
+        
+        height: 418px;
+        width: 320px;
+        margin-left: 20px;
+    }
+    .sim{
+        text-decoration: underline;
+    }
+    .end{
+        height: 418px;
+        width: 320px;
+        margin-left: -20px;
+        position: relative;
+    }
+    
+    .pikicha{
+        height: 418px;
+        width: 320px; 
+        margin-left: 20px;
+        position: relative;
+    }
+    .town{
+        display: flex;
+        justify-content: end;
+        align-items: end;
+    }
+    .sample{
+        display: flex;
+        justify-content: end;
+        align-items: end;
+      
+    }
+    .hes{
+        margin-bottom: -10px;
+    }
+    .picc{
+        padding-left: 90px;
+    }
+    h3{
+        display: flex;
+      position: absolute;
+      color: white;
+    
+    }
+  }
+  .members{
+    font-family: "myfont"; 
+    padding-top: 125px;
+    margin-left: 65px;
+    margin-right: 20px;
+    .altogether{
+        margin-left: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .bride{
+        padding-left: 62px;
+    }
+    .boiz{
+        position: relative;
+        top: 40px;
+        height: 300px;
+        width: 419px;
+    }
+    .h3{
+        font-family: "myfont";
+        font-size: 25px;
+        margin-bottom: -15px;
+        margin-left: 60px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .babe{
+        margin-right: 75px;
+        height: 300px;
+        width: 419px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .names{
+        font-size: 30px;
+        margin-top: 40px;
+        
+    }
+    .name{
+        font-size: 30px;
+        
+
+    }
+  }
+  .pics{
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    .basket{
+   position: relative;
+   top: 40px;
+    }
+    .heading{
+        margin-bottom: 22px;
+        font-weight: 600;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .mother{
+   position: relative;
+   top: 90px;
+    }
+    .water{
+   position: relative;
+   top: 90px;
+
+    }
+    .word{
+        margin-top: 130px;
+        font-size: 25px;
+        font-weight: 400;
+        font-weight: bold;
+    }
+    .insta{
+        font-family: "myfont2";
+    }
+    .click{
+        background-color:  #742296;
+        font-family: "myfont";
+            color: white;
+            padding: 5px;
+            width: 140px;
+    }
+  }
+  .footer{
+    font-family: "myfont"; 
+    margin-top: 40px;
+    display: flex;
+    background-color: #742296;
+    justify-content: space-between;
+    color: white;
+    .logo{
+    margin-top: 25px;
+    width: 80px;
+    }
+    .h3{
+        text-decoration: underline 3px solid;
+        font-weight: 600;
+        font-size: larger;
+    }
+    .one{
+        margin-left: 70px;
+    }
+    .four{
+        margin-top: 25px;
+        margin-right: 60px;
+    }
+    .three{
+        margin-top: 25px;
+    }
+    .two{
+        margin-top: 25px;
+    }
+    i{
+        padding-right: 15px;
+    }
+  }
+
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+  @media only screen and (min-width: 576px)  {
+  
+    .menu{
+     display: none;
+    }
+  }
+
+  @media only screen and (max-width: 578px) {
+
+    .body{
+        overflow: hidden;
+    }
+    .Navbar{
+         overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 10px;
+        margin-right: 50px;
+    
+        .menu{
+            position: absolute;
+            top: 9;
+            right: 14px;
+            color: black;
+          }
+
+        .dropdown{
+            margin-left: -26px;
+            margin-top: -198;
+        
+          }
+          .bottonny.show{
+            // margin-top: 20px;
+            padding-bottom: 40px;
+          }
+          .show{
+            background-color: blueviolet;
+            padding-right: 1400px;
+            // height: 40vh;
+            padding-bottom: 1px;
+          }
+
+        .logo{
+        width: 70px;    
+        height: 30px;
+        left: 1px;
+        top: 10px;
+          }
+          .purple{
+            color: #742296;
+          }
+          .log{
+            // margin-right: -166px;
+            justify-content: right;
+    
+          }
+          .logz{
+            display: none;
+          }
+          .state{
+            font-size: 27px;
+            margin-top: 10px;
+            margin-left: 171px;
+            padding: 10px;
+            display: none;
+          }
+    
+        }
+    
+        .home{
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        margin-right: 0;
+    
+            .text{
+                display: flex;
+                flex-direction: column;
+                margin-left: 20px;
+                margin-top: 89px;
+            }
+            .h1{
+                font-family: "myfont";  
+                font-size: 27px;
+                font-weight: bold;
+            }
+            .button1{
+                background-color:  #742296;
+                color: white;
+                padding: 2px;
+            }
+            .buttons{
+                display: flex;
+                padding: 10px;
+            }
+            p{
+                font-family: "myfont";  
+            }
+            .button2{
+                margin-left: 97px;
+                border: 3px solid #742296;
+                border-color:  #742296;
+                padding: 2px;
+            }
+            .pics{
+                display: none;
+                
+            }
+            .photo2{
+                height: 40vh;
+                width: 70px;
+                display: none;
+            }
+            .purple{
+                color:  #742296;
+            }
+            .photo{
+                height: 40vh;
+                width:70px;
+                display: none;   
+            }
+    
+        }
+    
+      .about{
+        
+        padding-top: 50px;
+        margin-left: 65px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: column;
+    
+    
+        .h2{
+            font-size: 25px;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-left: 20px;
+            font-family: "myfont"; 
+        }
+        .pic{
+            margin-left: 20px;
+            width: 310px;
+
+        }
+        .phottoo{
+            position: relative;
+            top: 20px;
+            width: 200px;
+            display: none;
+        }
+        .sec2{
+            margin-top: 2px;
+            display: flex;
+            flex-direction: column;
+            margin-left: -38px;
+        
+             
+        }
+        p{
+            width: 355px;
+            font-family: "myfont";   
+        }
+        .sec1{
+            margin-left: -45px;
+            display: flex;
+            flex-direction: column;
+            
+        } 
+        .click{
+            background-color:  #742296;
+                color: white;
+                padding: 5px;
+                width: 140px;
+                margin-top: 30px;
+                margin-left: 85px;
+        }
+        .play{
+            height: 300px;
+            width: 320px;
+            margin-top: 30px;
+            
+        
+        }
+        .pics{
+            
+            position: absolute;
+            height: 300px;
+            width: 320px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        
+        }
+        .youtube{
+            margin-left: 126px;
+            position: relative;
+            display: flex;
+        }
+        
+      }
+      .Services{
+        overflow: hidden;
+        font-family: "myfont"; 
+        padding-top: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+        .head{
+            font-family: "myfont";
+            margin-left: 51px;
+            margin-bottom: 10px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .zvese{
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            
+        }
+        .statement{
+            
+            height: 418px;
+            width: 320px;
+            margin-left: -15px;
+        }
+        .sim{
+            text-decoration: underline;
+        }
+        .end{
+            height: 418px;
+            width: 320px;
+            margin-left: -20px;
+            position: relative;
+            display: none;
+        }
+        
+        .pikicha{
+            height: 418px;
+            width: 320px; 
+            margin-left: -15px;
+            position: relative;
+            margin-top: 20px;
+        }
+        .town{
+            display: flex;
+            justify-content: end;
+            align-items: end;
+        }
+        .sample{
+            display: flex;
+            justify-content: end;
+            align-items: end;
+          
+        }
+        .hes{
+            margin-bottom: -3px;
+        }
+        .picc{
+            padding-left: 90px;
+            display: none;
+        }
+        h3{
+            display: flex;
+          position: absolute;
+          color: white;
+        
+        }
+      }
+      .members{
+        overflow: hidden;
+        font-family: "myfont"; 
+        padding-top: 40px;
+        margin-left: -11px;
+        margin-right: 20px;
+        .altogether{
+            margin-left: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        .boiz{
+            position: relative;
+            top: 40px;
+            height: 300px;
+            width: 342px;
+        }
+        .h3{
+            font-family: "myfont";
+            font-size: 25px;
+            margin-bottom: -15px;
+            margin-left: 60px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .babe{
+            margin-right: 75px;
+            height: 300px;
+            width: 342px;
+        }
+        .title{
+            font-size: 20px;
+        }
+        .names{
+            font-size: 30px;
+            margin-top: 40px;
+            
+        }
+        .name{
+            font-size: 30px;
+            
+    
+        }
+      }
+      .pics{
+        overflow: hidden;
+        margin-top: 20px;
+        text-align: center;
+        align-items: center;
+        .basket{
+       position: relative;
+       top: 40px;
+        }
+        .heading{
+            margin-bottom: 10px;
+            font-weight: 600;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .mother{
+       position: relative;
+       top: 40px;
+       display: none;
+        }
+        .water{
+       position: relative;
+       top: 40px;
+       height: 200px;
+       display: none;
+    
+        }
+        .photos{
+            display: flex;
+            flex-direction: column;
+        }
+        .word{
+            margin-top: 30px;
+            font-size: 25px;
+            font-weight: 400;
+            font-weight: bold;
+        }
+        .insta{
+            font-family: "myfont2";
+        }
+        .guyo{
+            margin-left: 25px;
+            width: 325px;
+            height: 80vh;
+            object-fit: fill;
+        }
+        .waterboi{
+            margin-top: 10px;
+            margin-left: 25px;
+            width: 325px;
+            height: 80vh;
+            object-fit: cover; 
+        }
+        .girl{
+            margin-top: 10px;
+            margin-left: 25px;
+            width: 325px;
+            height: 80vh;
+            object-fit: cover;
+        }
+        .click{
+            background-color:  #742296;
+                color: white;
+                width: 100px;
+                margin-left: 138px;
+        }
+      }
+      .footer{
+
+         overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        font-family: "myfont";
+        margin-top: 30px;
+        background-color: #742296;
+        // justify-content: center;
+        // align-items: center;
+        // color: white;
+    
+        .logo{
+        margin-top: 25px;
+        width: 49px;
+        }
+        .h3{
+            text-decoration: underline 3px solid;
+            font-weight: 600;
+            font-size: larger;
+
+        }
+        .one{
+            font-size: 15px;
+            margin-left: 15px;
+            width: 50%;
+        }
+        .four{
+            font-size: 8px;
+            margin-left: 200px;
+            margin-top: -141px;
+            
+        }
+        .three{
+            font-size: 15px;
+            margin-right: 65px;
+            margin-top: -147px;
+            
+        }
+        .two{
+            font-size: 11px;
+            margin-top: 20px;
+            width: 50%;
+            margin-left: 15px;
+        }
+        i{
+            padding-right: 15px;
+        }
+      }
+
+  }
+  @media only screen and (min-width: 578px) and (max-width:768px) {
+    .body{
+        overflow: hidden;
+    }
+    .Navbar{
+         overflow: hidden;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 10px;
+        margin-right: -45px;
+    
+        .logo{
+            
+        position: absolute;
+        left: 28px;
+        top: 10px;
+          }
+          .purple{
+            color: #742296;
+            display: none;
+          }
+          .log{
+            margin-right: -166px;
+            justify-content: right;
+    
+          }
+          .state{
+            font-size: 27px;
+            margin-top: 10px;
+            margin-left: 171px;
+            padding: 10px;
+          }
+    
+        }
+    
+        .home{
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+            margin-right: 45px;
+    
+            .text{
+                display: flex;
+                flex-direction: column;
+                margin-left: 50px;
+                margin-top: 49px;
+            }
+            .logz{
+                margin-right:3px ;
+            }
+            .h1{
+                font-family: "myfont";  
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .button1{
+                background-color:  #742296;
+                color: white;
+                padding: 7px;
+            }
+            .buttons{
+                display: flex;
+            }
+            p{
+                font-family: "myfont";  
+            }
+            .button2{
+                margin-left: 20px;
+                border: 3px solid #742296;
+                border-color:  #742296;
+                padding: 7px;
+            }
+            .img{
+                margin-left: 10px;
+            }
+            .photo2{
+                position: relative;
+                top: 20px;
+                margin-right: 165px;
+                width: 158px;
+            }
+            .purple{
+                color:  #742296;
+            }
+            .pics{
+                display: flex;
+                flex-direction: column;
+                margin-left: 180px;
+                margin-right: 10px;
+            }
+            .photo{
+                height: 50vh;
+                display: none;
+            }
+    
+        }
+    
+      .about{
+        overflow: hidden;
+        padding-top: 50px;
+        margin-left: 65px;
+        margin-right: 20px;
+        display: flex;
+        justify-content: space-evenly;
+    
+    
+        .h2{
+            font-size: 25px;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-left: -10px;
+            font-family: "myfont"; 
+        }
+        .pic{
+            width: 234px;
+        }
+        .phottoo{
+            display: none;
+            position: relative;
+            top: 20px;
+            width: 200px;
+        }
+        .sec2{
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            margin-left: 40px;
+        
+             
+        }
+        p{
+            font-family: "myfont";  
+            width: 180px; 
+        }
+        .sec1{
+            margin-left: -18px;
+            display: flex;
+            flex-direction: column;
+            
+        } 
+        .click{
+            background-color:  #742296;
+                color: white;
+                padding: 5px;
+                width: 140px;
+                margin-top: 30px;
+        }
+        .play{
+            height: 300px;
+            width: 320px;
+            margin-top: 30px;
+            
+        
+        }
+        .pics{
+            position: absolute;
+            height: 300px;
+            width: 320px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        
+        }
+        .youtube{
+            position: relative;
+            display: flex;
+        }
+        
+      }
+      .Services{
+        overflow: hidden;
+        font-family: "myfont"; 
+        padding-top: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+        .head{
+            font-family: "myfont";
+            margin-left: 51px;
+            margin-bottom: 10px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .zvese{
+            margin-left: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            
+            
+        }
+        .statement{
+            
+            height: 418px;
+            width: 202px;
+            margin-left: 20px;
+        }
+        .sim{
+            text-decoration: underline;
+        }
+        .end{
+            height: 418px;
+            width: 202px;
+            margin-left: -20px;
+            position: relative;
+        }
+        
+        .pikicha{
+            height: 418px;
+            width: 202px; 
+            margin-left: 20px;
+            position: relative;
+        }
+        .town{
+            display: flex;
+            justify-content: end;
+            align-items: end;
+        }
+        .sample{
+            display: flex;
+            justify-content: end;
+            align-items: end;
+          
+        }
+        .hes{
+            margin-bottom: -10px;
+        }
+        .picc{
+            padding-left: 90px;
+        }
+        h3{
+            display: flex;
+          position: absolute;
+          color: white;
+        
+        }
+      }
+      .members{
+        overflow: hidden;
+        font-family: "myfont"; 
+        padding-top: 40px;
+        margin-left: 65px;
+        margin-right: 20px;
+        .altogether{
+            margin-left: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        .boiz{
+            position: relative;
+            top: 40px;
+            height: 300px;
+            width: 311px;
+        }
+        .h3{
+            font-family: "myfont";
+            font-size: 25px;
+            margin-bottom: -15px;
+            margin-left: 6px;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .babe{
+            margin-right: 75px;
+            height: 300px;
+            width: 280px;
+            margin-left: 7px;
+        }
+        .title{
+            font-size: 20px;
+        }
+        .names{
+            font-size: 30px;
+            margin-top: 40px;
+            
+        }
+        .two{
+            margin-left: -20px;
+        }
+        .name{
+            font-size: 30px;
+            
+    
+        }
+      }
+      .pics{
+        overflow: hidden;
+        margin-top: 20px;
+        text-align: center;
+        align-items: center;
+        .basket{
+       position: relative;
+       top: 40px;
+        }
+        .heading{
+            margin-bottom: 10px;
+            font-weight: 600;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .mother{
+       position: relative;
+       top: 40px;
+        }
+        .water{
+       position: relative;
+       top: 40px;
+       display: none;
+    
+        }
+        .word{
+            margin-top: 60px;
+            font-size: 25px;
+            font-weight: 400;
+            font-weight: bold;
+        }
+        .insta{
+            font-family: "myfont2";
+        }
+        .click{
+            background-color:  #742296;
+                color: white;
+                padding: 5px;
+                width: 140px;
+        }
+      }
+      .footer{
+        overflow: hidden;
+        font-family: "myfont"; 
+        margin-top: 40px;
+        display: flex;
+        background-color: #742296;
+        justify-content: space-between;
+        color: white;
+        .logo{
+        margin-top: 25px;
+        width: 80px;
+        }
+        .h3{
+            text-decoration: underline 3px solid;
+            font-weight: 600;
+            font-size: larger;
+        }
+        .one{
+            margin-left: 60px;
+        }
+        .four{
+            margin-top: 25px;
+            margin-right: 60px;
+        }
+        .three{
+            margin-top: 25px;
+        }
+        .two{
+            margin-top: 25px;
+        }
+        i{
+            padding-right: 15px;
+        }
+      }
+  }
+
+  @media (min-width:769px) and (max-width:1024px) { 
+    .home{
+        display: flex;
+        flex-direction: row;
+        margin-right: 45px;
+
+        .text{
+            display: flex;
+            flex-direction: column;
+            margin-left: 80px;
+            margin-top: 25px;
+        }
+        .h1{
+            font-family: "myfont";  
+            font-size: 27px;
+        }
+        .button1{
+            background-color:  #742296;
+            color: white;
+            padding: 7px;
+        }
+        .sese{
+            font-size: 22px;
+        }
+        p{
+            font-size: 29px;
+            font-family: "myfont";  
+        }
+        .button2{
+            margin-left: 20px;
+            border: 3px solid #742296;
+            border-color:  #742296;
+            padding: 7px;
+        }
+        .photo2{
+            position: relative;
+            top: 20px;
+        }
+        .purple{
+            color:  #742296;
+        }
+        .pics{
+            display: flex;
+            flex-direction: column;
+            margin-left: 180px;
+            margin-right: 10px;
+        }
+        .photo{
+            height: 35vh;
+        }
+
+    }
+
+    .about{
+        padding-top: 50px;
+        margin-left: 65px;
+        margin-right: 20px;
+        display: flex;
+        justify-content: space-evenly;
+    
+    
+        .h2{
+            font-size: 27px;
+            margin-top: 20px;
+            margin-left: 11px;
+            font-family: "myfont"; 
+        }
+        .pic{
+            width: 234px;
+        }
+        .phottoo{
+            position: relative;
+            top: 20px;
+            width: 200px;
+        }
+        .sec2{
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            margin-left: -170px;
+        
+             
+        }
+        p{
+            font-family: "myfont";   
+        }
+        .sec1{
+            margin-left: -45px;
+            display: flex;
+            flex-direction: column;
+            
+        } 
+        .click{
+            background-color:  #742296;
+                color: white;
+                padding: 5px;
+                width: 140px;
+                margin-top: 30px;
+        }
+        .play{
+            height: 300px;
+            width: 320px;
+            margin-top: 30px;
+            margin-left: 303px;
+            
+        
+        }
+        .pics{
+            position: absolute;
+            height: 300px;
+            width: 320px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin-left: 315px;
+        
+        }
+        .letter{
+            margin-left: 269px;
+        }
+        .youtube{
+            position: relative;
+            display: flex;
+        }
+        
+      }
+      .Services{
+        font-family: "myfont"; 
+        padding-top: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+        .head{
+            font-family: "myfont";
+            margin-left: 51px;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+        .zvese{
+            margin-left: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            
+            
+        }
+        .statement{
+            
+            height: 418px;
+            width: 320px;
+            margin-left: 20px;
+        }
+        .sim{
+            text-decoration: underline;
+        }
+        .end{
+            height: 418px;
+            width: 320px;
+            margin-left: -20px;
+            position: relative;
+        }
+        
+        .pikicha{
+            height: 418px;
+            width: 320px; 
+            margin-left: 20px;
+            position: relative;
+        }
+        .town{
+            display: flex;
+            justify-content: end;
+            align-items: end;
+        }
+        .sample{
+            display: flex;
+            justify-content: end;
+            align-items: end;
+          
+        }
+        .hes{
+            margin-bottom: -10px;
+        }
+        .picc{
+            padding-left: 90px;
+        }
+        h3{
+            display: flex;
+          position: absolute;
+          color: white;
+        
+        }  
+    }
+    .members{
+        font-family: "myfont"; 
+        padding-top: 40px;
+        margin-left: 65px;
+        margin-right: 20px;
+        .altogether{
+            margin-left: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        .boiz{
+            position: relative;
+            top: 40px;
+            height: 300px;
+            width: 419px;
+        }
+        .h3{
+            font-family: "myfont";
+            font-size: 25px;
+            margin-bottom: -15px;
+            margin-left: -15px;
+            font-size: 18px;
+        }
+        .babe{
+            margin-right: 75px;
+            height: 300px;
+            width: 419px;
+        }
+        .title{
+            font-size: 25px;
+        }
+        .names{
+            font-size: 30px;
+            margin-top: 40px;
+        }
+        .name{
+            font-size: 30px;
+    
+        }
+      }
+      .pics{
+        margin-top: 20px;
+        text-align: center;
+        align-items: center;
+        .basket{
+       position: relative;
+       top: 40px;
+        }
+        .heading{
+            margin-bottom: 10px;
+            font-weight: 600;
+            font-size: 30px;
+        }
+        .guyo{
+            position: relative;
+            top: 40px;    
+        }
+        .mother{
+       position: relative;
+       top: 40px;
+        }
+        .water{
+       position: relative;
+       top: 40px;
+       display: none;
+    
+        }
+        .word{
+            margin-top: 60px;
+            font-size: 25px;
+            font-weight: 400;
+        }
+        .click{
+            background-color:  #742296;
+                color: white;
+                padding: 5px;
+                width: 140px;
+        }
+      }
+      .footer{
+        font-family: "myfont"; 
+        margin-top: 40px;
+        display: flex;
+        background-color: #742296;
+        justify-content: space-between;
+        color: white;
+        .logo{
+        margin-top: 25px;
+        width: 80px;
+        }
+        .h3{
+            text-decoration: underline 3px solid;
+            font-weight: 600;
+            font-size: larger;
+        }
+        .one{
+            margin-left: 60px;
+        }
+        .four{
+            margin-top: 25px;
+            margin-right: 60px;
+        }
+        .three{
+            margin-top: 25px;
+        }
+        .two{
+            margin-top: 25px;
+        }
+        i{
+            padding-right: 15px;
+        }
+      }
+  }
