@@ -129,7 +129,7 @@ body {
   font-family: "myfont";
 }
 .about .pic {
-  width: 234px;
+  width: 200px;
 }
 .about .phottoo {
   position: relative;
@@ -146,6 +146,7 @@ body {
 .about p {
   margin-top: 20px;
   font-family: "myfont";
+  font-size: 14px;
 }
 .about .sec1 {
   margin-left: -45px;
@@ -156,8 +157,8 @@ body {
   background-color: #742296;
   color: white;
   padding: 5px;
-  width: 140px;
-  margin-top: 60px;
+  width: 120px;
+  margin-top: 29px;
 }
 .about .play {
   height: 300px;
@@ -231,6 +232,8 @@ body {
 }
 .Services .picc {
   padding-left: 90px;
+  height: 7vh;
+  margin-bottom: 11px;
 }
 .Services h3 {
   display: flex;

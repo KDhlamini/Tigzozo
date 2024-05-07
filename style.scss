@@ -145,7 +145,7 @@
         font-family: "myfont"; 
     }
     .pic{
-        width: 234px;
+        width: 200px;
     }
     .phottoo{
         position: relative;
@@ -163,7 +163,8 @@
     }
     p{
         margin-top: 20px;
-        font-family: "myfont";   
+        font-family: "myfont";  
+        font-size: 14px; 
     }
     .sec1{
         margin-left: -45px;
@@ -175,8 +176,8 @@
         background-color:  #742296;
             color: white;
             padding: 5px;
-            width: 140px;
-            margin-top: 60px;
+            width: 120px;
+            margin-top: 29px;
     }
     .play{
         height: 300px;
@@ -257,9 +258,13 @@
     .hes{
         margin-bottom: -10px;
     }
+    
     .picc{
         padding-left: 90px;
+        height: 7vh;
+        margin-bottom: 11px;
     }
+
     h3{
         display: flex;
       position: absolute;
