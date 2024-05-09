@@ -34,6 +34,14 @@ body {
   position: absolute;
   left: 28px;
   top: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 195px;
+  height: 20vh;
+}
+.Navbar a {
+  color: #742296;
+  text-decoration: none;
 }
 .Navbar .purple {
   color: #742296;
@@ -42,15 +50,31 @@ body {
 .Navbar i {
   color: #742296;
 }
-.Navbar .log {
-  margin-right: -166px;
-  justify-content: right;
+.Navbar .logz {
+  width: 40px;
+  height: 30px;
+}
+.Navbar .img2 {
+  height: 26px;
+  margin-left: 30px;
+}
+.Navbar .img1 {
+  width: 160px;
 }
 .Navbar .state {
+  display: flex;
   font-size: 27px;
   margin-top: 10px;
-  margin-left: 443px;
+  margin-left: 460px;
   padding: 10px;
+  list-style: none;
+  margin-right: 20px;
+}
+.Navbar .ten {
+  font-size: 17px;
+  margin-right: 20px;
+  font-weight: bolder;
+  font-family: "myfont";
 }
 
 .home {
@@ -68,6 +92,7 @@ body {
 .home .pox {
   width: 30px;
   height: 30px;
+  border-radius: 50%;
 }
 .home .h1 {
   font-family: "myfont";
@@ -78,11 +103,17 @@ body {
   font-family: "myfont";
   background-color: #742296;
   color: white;
-  padding: 0px;
+  padding: 4px;
 }
 .home .buttons {
   display: flex;
   flex-direction: row;
+}
+.home .sese {
+  margin-left: -1px;
+}
+.home .purple {
+  margin-left: -1px;
 }
 .home p {
   font-family: "myfont";
@@ -94,14 +125,14 @@ body {
   border-right: 6px solid #742296;
   border-top: 3px solid #742296;
   border-bottom: 3px solid #742296;
-  padding: 0px;
+  padding: 4px;
 }
 .home .photo2 {
   position: relative;
   top: 45px;
 }
 .home .purple {
-  margin-top: 20px;
+  margin-top: 25px;
   color: #742296;
 }
 .home .pics {
@@ -122,10 +153,10 @@ body {
   justify-content: space-evenly;
 }
 .about .h2 {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: bold;
   margin-top: 20px;
-  margin-left: -150px;
+  margin-left: -166px;
   font-family: "myfont";
 }
 .about .pic {
@@ -146,7 +177,7 @@ body {
 .about p {
   margin-top: 20px;
   font-family: "myfont";
-  font-size: 14px;
+  font-size: 18px;
 }
 .about .sec1 {
   margin-left: -45px;
@@ -156,13 +187,15 @@ body {
 .about .click {
   background-color: #742296;
   color: white;
-  padding: 5px;
+  padding: 11px;
   width: 120px;
-  margin-top: 29px;
+  position: relative;
+  top: 45px;
+  text-decoration: none;
 }
 .about .play {
   height: 300px;
-  width: 320px;
+  width: 410px;
   margin-top: 30px;
 }
 .about .pics {
@@ -188,7 +221,7 @@ body {
   font-family: "myfont";
   margin-left: 51px;
   margin-bottom: 10px;
-  font-size: 25px;
+  font-size: 18px;
   font-weight: bold;
 }
 .Services .zvese {
@@ -198,9 +231,21 @@ body {
   justify-content: center;
 }
 .Services .statement {
+  background-color: #742296;
   height: 418px;
   width: 320px;
   margin-left: 20px;
+  color: white;
+  position: relative;
+}
+.Services .one {
+  text-decoration: underline;
+  margin-top: 10px;
+}
+.Services .text {
+  line-height: 1.2;
+  margin-left: 17px;
+  margin-top: 5px;
 }
 .Services .sim {
   text-decoration: underline;
@@ -235,6 +280,11 @@ body {
   height: 7vh;
   margin-bottom: 11px;
 }
+.Services .close {
+  padding-left: 177px;
+  height: 8vh;
+  margin-bottom: 11px;
+}
 .Services h3 {
   display: flex;
   position: absolute;
@@ -260,20 +310,24 @@ body {
   position: relative;
   top: 40px;
   height: 300px;
-  width: 419px;
+  width: 372px;
+}
+.members p {
+  font-size: 18px;
+  width: 400px;
 }
 .members .h3 {
   font-family: "myfont";
   font-size: 25px;
   margin-bottom: -15px;
-  margin-left: 60px;
-  font-size: 25px;
+  margin-left: 15px;
+  font-size: 18px;
   font-weight: bold;
 }
 .members .babe {
   margin-right: 75px;
   height: 300px;
-  width: 419px;
+  width: 372px;
 }
 .members .title {
   font-size: 20px;
@@ -304,10 +358,21 @@ body {
 .pics .mother {
   position: relative;
   top: 90px;
+  width: 120px;
+}
+.pics .guyo {
+  width: 120px;
+}
+.pics .waterboi {
+  width: 120px;
+}
+.pics .girl {
+  width: 120px;
 }
 .pics .water {
   position: relative;
   top: 90px;
+  width: 130px;
 }
 .pics .word {
   margin-top: 130px;
@@ -322,8 +387,9 @@ body {
   background-color: #742296;
   font-family: "myfont";
   color: white;
-  padding: 5px;
+  padding: 11px;
   width: 140px;
+  text-decoration: none;
 }
 
 .footer {
@@ -420,10 +486,11 @@ body {
     margin-right: 50px;
   }
   .Navbar .menu {
-    position: absolute;
     top: 9;
     right: 14px;
     color: black;
+    margin-right: -150px;
+    margin-top: 17px;
   }
   .Navbar .dropdown {
     margin-left: -26px;
@@ -442,6 +509,7 @@ body {
     height: 30px;
     left: 1px;
     top: 10px;
+    margin-top: -6px;
   }
   .Navbar .purple {
     color: #742296;
@@ -469,7 +537,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
-    margin-top: 89px;
+    margin-top: 58px;
   }
   .home .h1 {
     font-family: "myfont";
@@ -518,15 +586,15 @@ body {
     flex-direction: column;
   }
   .about .h2 {
-    font-size: 25px;
+    font-size: 19px;
     font-weight: bold;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 56px;
     font-family: "myfont";
   }
   .about .pic {
-    margin-left: 20px;
-    width: 310px;
+    margin-left: 10px;
+    width: 320px;
   }
   .about .phottoo {
     position: relative;
@@ -541,7 +609,8 @@ body {
     margin-left: -38px;
   }
   .about p {
-    width: 355px;
+    margin-left: 30px;
+    width: 280px;
     font-family: "myfont";
   }
   .about .sec1 {
@@ -552,9 +621,10 @@ body {
   .about .click {
     background-color: #742296;
     color: white;
-    padding: 5px;
+    padding: 8px;
     width: 140px;
-    margin-top: 30px;
+    position: relative;
+    top: 18px;
     margin-left: 85px;
   }
   .about .play {
@@ -584,9 +654,9 @@ body {
   }
   .Services .head {
     font-family: "myfont";
-    margin-left: 51px;
+    margin-left: 9px;
     margin-bottom: 10px;
-    font-size: 25px;
+    font-size: 19px;
     font-weight: bold;
   }
   .Services .zvese {
@@ -662,14 +732,17 @@ body {
     font-family: "myfont";
     font-size: 25px;
     margin-bottom: -15px;
-    margin-left: 60px;
-    font-size: 25px;
+    margin-left: 32px;
+    font-size: 19px;
     font-weight: bold;
   }
   .members .babe {
     margin-right: 75px;
     height: 300px;
     width: 342px;
+  }
+  .members .bride {
+    padding-left: 1px;
   }
   .members .title {
     font-size: 20px;
@@ -724,25 +797,25 @@ body {
   .pics .guyo {
     margin-left: 25px;
     width: 325px;
-    height: 80vh;
-    -o-object-fit: fill;
-       object-fit: fill;
+    height: 113vh;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   .pics .waterboi {
     margin-top: 10px;
     margin-left: 25px;
     width: 325px;
-    height: 80vh;
-    -o-object-fit: cover;
-       object-fit: cover;
+    height: 104vh;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   .pics .girl {
     margin-top: 10px;
     margin-left: 25px;
     width: 325px;
-    height: 80vh;
-    -o-object-fit: cover;
-       object-fit: cover;
+    height: 104vh;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   .pics .click {
     background-color: #742296;
@@ -798,38 +871,62 @@ body {
     overflow: hidden;
   }
   .Navbar {
-    overflow: hidden;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-evenly;
     margin-left: 10px;
-    margin-right: -45px;
+    margin-right: 50px;
   }
   .Navbar .logo {
     position: absolute;
     left: 28px;
     top: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 195px;
+    height: 20vh;
+  }
+  .Navbar a {
+    color: #742296;
+    text-decoration: none;
   }
   .Navbar .purple {
     color: #742296;
-    display: none;
+    text-decoration: none;
   }
-  .Navbar .log {
-    margin-right: -166px;
-    justify-content: right;
+  .Navbar i {
+    color: #742296;
+  }
+  .Navbar .logz {
+    width: 40px;
+    height: 30px;
+  }
+  .Navbar .img2 {
+    height: 26px;
+  }
+  .Navbar .img1 {
+    width: 160px;
+    margin-left: -44px;
+    margin-top: -8px;
   }
   .Navbar .state {
+    display: flex;
     font-size: 27px;
     margin-top: 10px;
-    margin-left: 171px;
+    margin-left: 195px;
     padding: 10px;
+    list-style: none;
+    margin-right: 20px;
+  }
+  .Navbar .ten {
+    margin-right: 20px;
   }
   .home {
     overflow: hidden;
     display: flex;
     flex-direction: row;
-    margin-right: 45px;
+    margin-right: 55px;
   }
   .home .text {
     display: flex;
@@ -842,7 +939,7 @@ body {
   }
   .home .h1 {
     font-family: "myfont";
-    font-size: 18px;
+    font-size: 30px;
     font-weight: bold;
   }
   .home .button1 {
@@ -877,7 +974,7 @@ body {
   .home .pics {
     display: flex;
     flex-direction: column;
-    margin-left: 180px;
+    margin-left: 10px;
     margin-right: 10px;
   }
   .home .photo {
@@ -887,8 +984,6 @@ body {
   .about {
     overflow: hidden;
     padding-top: 50px;
-    margin-left: 65px;
-    margin-right: 20px;
     display: flex;
     justify-content: space-evenly;
   }
@@ -916,7 +1011,7 @@ body {
   }
   .about p {
     font-family: "myfont";
-    width: 180px;
+    width: 240px;
   }
   .about .sec1 {
     margin-left: -18px;
@@ -929,6 +1024,8 @@ body {
     padding: 5px;
     width: 140px;
     margin-top: 30px;
+    position: relative;
+    top: 121px;
   }
   .about .play {
     height: 300px;
@@ -946,6 +1043,7 @@ body {
   .about .youtube {
     position: relative;
     display: flex;
+    margin-left: 120px;
   }
   .Services {
     overflow: hidden;
@@ -1002,6 +1100,7 @@ body {
   }
   .Services .picc {
     padding-left: 90px;
+    height: 4vh;
   }
   .Services h3 {
     display: flex;
@@ -1036,10 +1135,13 @@ body {
     font-weight: bold;
   }
   .members .babe {
-    margin-right: 75px;
     height: 300px;
     width: 280px;
     margin-left: 7px;
+    margin-right: 75px;
+  }
+  .members .bride {
+    padding-left: 22px;
   }
   .members .title {
     font-size: 20px;
@@ -1070,13 +1172,17 @@ body {
     font-size: 20px;
     font-weight: bold;
   }
+  .pics .guyo {
+    position: relative;
+    top: 60px;
+  }
   .pics .mother {
     position: relative;
     top: 40px;
   }
   .pics .water {
     position: relative;
-    top: 40px;
+    top: 60px;
     display: none;
   }
   .pics .word {
@@ -1131,10 +1237,60 @@ body {
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
+  .Navbar {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    margin-right: 50px;
+  }
+  .Navbar .logo {
+    position: absolute;
+    left: 28px;
+    top: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 195px;
+    height: 20vh;
+  }
+  .Navbar a {
+    color: #742296;
+    text-decoration: none;
+  }
+  .Navbar .purple {
+    color: #742296;
+    text-decoration: none;
+  }
+  .Navbar i {
+    color: #742296;
+  }
+  .Navbar .logz {
+    width: 40px;
+    height: 30px;
+  }
+  .Navbar .img2 {
+    height: 32px;
+  }
+  .Navbar .img1 {
+    width: 160px;
+  }
+  .Navbar .state {
+    display: flex;
+    font-size: 27px;
+    margin-top: 10px;
+    margin-left: 422px;
+    padding: 10px;
+    list-style: none;
+    margin-right: 20px;
+  }
+  .Navbar .ten {
+    margin-right: 20px;
+  }
   .home {
+    overflow: hidden;
     display: flex;
     flex-direction: row;
-    margin-right: 45px;
   }
   .home .text {
     display: flex;
@@ -1144,7 +1300,8 @@ body {
   }
   .home .h1 {
     font-family: "myfont";
-    font-size: 27px;
+    font-size: 34px;
+    font-weight: bolder;
   }
   .home .button1 {
     background-color: #742296;
@@ -1155,7 +1312,7 @@ body {
     font-size: 22px;
   }
   .home p {
-    font-size: 29px;
+    font-size: 21px;
     font-family: "myfont";
   }
   .home .button2 {
@@ -1167,6 +1324,7 @@ body {
   .home .photo2 {
     position: relative;
     top: 20px;
+    height: 37vh;
   }
   .home .purple {
     color: #742296;
@@ -1174,23 +1332,23 @@ body {
   .home .pics {
     display: flex;
     flex-direction: column;
-    margin-left: 180px;
+    margin-left: 55px;
     margin-right: 10px;
   }
   .home .photo {
     height: 35vh;
   }
   .about {
+    overflow: hidden;
     padding-top: 50px;
     margin-left: 65px;
-    margin-right: 20px;
     display: flex;
     justify-content: space-evenly;
   }
   .about .h2 {
     font-size: 27px;
     margin-top: 20px;
-    margin-left: 11px;
+    margin-left: 38px;
     font-family: "myfont";
   }
   .about .pic {
@@ -1245,6 +1403,7 @@ body {
     display: flex;
   }
   .Services {
+    overflow: hidden;
     font-family: "myfont";
     padding-top: 40px;
     margin-left: 30px;
@@ -1292,11 +1451,18 @@ body {
     justify-content: end;
     align-items: end;
   }
+  .Services .close {
+    padding-left: 177px;
+    height: 4vh;
+    margin-bottom: 11px;
+  }
   .Services .hes {
     margin-bottom: -10px;
   }
   .Services .picc {
     padding-left: 90px;
+    height: 53px;
+    margin-right: 23px;
   }
   .Services h3 {
     display: flex;
@@ -1304,9 +1470,10 @@ body {
     color: white;
   }
   .members {
+    overflow: hidden;
     font-family: "myfont";
     padding-top: 40px;
-    margin-left: 65px;
+    margin-left: 35px;
     margin-right: 20px;
   }
   .members .altogether {
@@ -1344,6 +1511,7 @@ body {
     font-size: 30px;
   }
   .pics {
+    overflow: hidden;
     margin-top: 20px;
     text-align: center;
     align-items: center;
@@ -1368,7 +1536,6 @@ body {
   .pics .water {
     position: relative;
     top: 40px;
-    display: none;
   }
   .pics .word {
     margin-top: 60px;
@@ -1382,6 +1549,7 @@ body {
     width: 140px;
   }
   .footer {
+    overflow: hidden;
     font-family: "myfont";
     margin-top: 40px;
     display: flex;

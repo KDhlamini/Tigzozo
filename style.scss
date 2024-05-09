@@ -38,6 +38,14 @@
     position: absolute;
     left: 28px;
     top: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 195px;
+    height: 20vh;
+      }
+      a{
+        color: #742296;
+        text-decoration: none;
       }
       .purple{
         color: #742296;
@@ -46,16 +54,34 @@
       i{
         color: #742296;
       }
-      .log{
-        margin-right: -166px;
-        justify-content: right;
+      .logz{
+        // margin-right: -166px;
+        // justify-content: right;
+        width: 40px;
+        height: 30px;
 
       }
+      .img2{
+        height: 26px;
+        margin-left: 30px;
+      }
+      .img1{
+        width: 160px;
+      }
       .state{
+        display: flex;
         font-size: 27px;
         margin-top: 10px;
-        margin-left: 443px;
+        margin-left: 460px;
         padding: 10px;
+        list-style: none;
+        margin-right: 20px;
+      }
+      .ten{
+        font-size: 17px;
+        margin-right: 20px;
+        font-weight: bolder;
+        font-family: "myfont";
       }
       
     
@@ -77,6 +103,7 @@
         .pox{
             width: 30px;
             height: 30px;
+            border-radius: 50%;
           }
         .h1{
             font-family: "myfont";  
@@ -87,12 +114,17 @@
             font-family: "myfont";
             background-color:  #742296;
             color: white;
-            padding: 0px;
+            padding: 4px;
         }
         .buttons{
             display: flex;
-            flex-direction: row;
-            
+            flex-direction: row; 
+        }
+        .sese{
+            margin-left: -1px;
+        }
+        .purple{
+        margin-left: -1px;
         }
         p{
             font-family: "myfont";  
@@ -107,14 +139,14 @@
             // border: 3px solid #742296;
             // border-left: 6px;
             // border-color:  #742296;
-            padding: 0px;
+            padding: 4px;
         }
         .photo2{
             position: relative;
             top: 45px;
         }
         .purple{
-            margin-top: 20px;
+            margin-top: 25px;
             color:  #742296;
         }
         .pics{
@@ -138,10 +170,10 @@
 
 
     .h2{
-        font-size: 25px;
+        font-size: 18px;
         font-weight: bold;
         margin-top: 20px;
-        margin-left: -150px;
+        margin-left: -166px;
         font-family: "myfont"; 
     }
     .pic{
@@ -164,7 +196,7 @@
     p{
         margin-top: 20px;
         font-family: "myfont";  
-        font-size: 14px; 
+        font-size: 18px; 
     }
     .sec1{
         margin-left: -45px;
@@ -175,13 +207,16 @@
     .click{
         background-color:  #742296;
             color: white;
-            padding: 5px;
+            padding: 11px;
             width: 120px;
-            margin-top: 29px;
+            position: relative;
+            top: 45px;
+            text-decoration: none;
+
     }
     .play{
         height: 300px;
-        width: 320px;
+        width: 410px;
         margin-top: 30px;
         
     
@@ -211,7 +246,7 @@
         font-family: "myfont";
         margin-left: 51px;
         margin-bottom: 10px;
-        font-size: 25px;
+        font-size: 18px;
         font-weight: bold;
     }
     .zvese{
@@ -223,10 +258,21 @@
         
     }
     .statement{
-        
+        background-color: #742296;
         height: 418px;
         width: 320px;
         margin-left: 20px;
+        color: white;
+        position: relative;
+    }
+    .one{
+        text-decoration: underline;
+        margin-top: 10px;
+    }
+    .text{
+        line-height: 1.2;
+        margin-left: 17px;
+        margin-top: 5px;
     }
     .sim{
         text-decoration: underline;
@@ -258,11 +304,17 @@
     .hes{
         margin-bottom: -10px;
     }
-    
+
     .picc{
         padding-left: 90px;
         height: 7vh;
         margin-bottom: 11px;
+    }
+    .close{
+        padding-left: 177px;
+        height: 8vh;
+        margin-bottom: 11px;
+
     }
 
     h3{
@@ -290,20 +342,24 @@
         position: relative;
         top: 40px;
         height: 300px;
-        width: 419px;
+        width: 372px;
+    }
+    p{
+        font-size: 18px;
+        width: 400px;
     }
     .h3{
         font-family: "myfont";
         font-size: 25px;
         margin-bottom: -15px;
-        margin-left: 60px;
-        font-size: 25px;
+        margin-left: 15px;
+        font-size: 18px;
         font-weight: bold;
     }
     .babe{
         margin-right: 75px;
         height: 300px;
-        width: 419px;
+        width: 372px;
     }
     .title{
         font-size: 20px;
@@ -336,10 +392,21 @@
     .mother{
    position: relative;
    top: 90px;
+   width: 120px;
+    }
+    .guyo{
+        width: 120px;   
+    }
+    .waterboi{
+        width: 120px;
+    }
+    .girl{
+        width: 120px;
     }
     .water{
    position: relative;
    top: 90px;
+   width: 130px;
 
     }
     .word{
@@ -355,8 +422,9 @@
         background-color:  #742296;
         font-family: "myfont";
             color: white;
-            padding: 5px;
+            padding: 11px;
             width: 140px;
+            text-decoration: none;
     }
   }
   .footer{
@@ -455,10 +523,12 @@
         margin-right: 50px;
     
         .menu{
-            position: absolute;
+            // position: absolute;
             top: 9;
             right: 14px;
             color: black;
+            margin-right: -150px;
+        margin-top: 17px;
           }
 
         .dropdown{
@@ -482,6 +552,7 @@
         height: 30px;
         left: 1px;
         top: 10px;
+        margin-top: -6px
           }
           .purple{
             color: #742296;
@@ -514,7 +585,7 @@
                 display: flex;
                 flex-direction: column;
                 margin-left: 20px;
-                margin-top: 89px;
+                margin-top: 58px;
             }
             .h1{
                 font-family: "myfont";  
@@ -569,15 +640,15 @@
     
     
         .h2{
-            font-size: 25px;
+            font-size: 19px;
             font-weight: bold;
             margin-top: 20px;
-            margin-left: 20px;
+            margin-left: 56px;
             font-family: "myfont"; 
         }
         .pic{
-            margin-left: 20px;
-            width: 310px;
+            margin-left: 10px;
+            width: 320px;
 
         }
         .phottoo{
@@ -595,7 +666,8 @@
              
         }
         p{
-            width: 355px;
+            margin-left: 30px;
+            width: 280px;
             font-family: "myfont";   
         }
         .sec1{
@@ -607,9 +679,10 @@
         .click{
             background-color:  #742296;
                 color: white;
-                padding: 5px;
+                padding: 8px;
                 width: 140px;
-                margin-top: 30px;
+                position: relative;
+                top: 18px;
                 margin-left: 85px;
         }
         .play{
@@ -644,9 +717,9 @@
         margin-right: 30px;
         .head{
             font-family: "myfont";
-            margin-left: 51px;
+            margin-left: 9px;
             margin-bottom: 10px;
-            font-size: 25px;
+            font-size: 19px;
             font-weight: bold;
         }
         .zvese{
@@ -728,14 +801,17 @@
             font-family: "myfont";
             font-size: 25px;
             margin-bottom: -15px;
-            margin-left: 60px;
-            font-size: 25px;
+            margin-left: 32px;
+            font-size: 19px;
             font-weight: bold;
         }
         .babe{
             margin-right: 75px;
             height: 300px;
             width: 342px;
+        }
+        .bride{
+            padding-left: 1px;
         }
         .title{
             font-size: 20px;
@@ -794,22 +870,22 @@
         .guyo{
             margin-left: 25px;
             width: 325px;
-            height: 80vh;
-            object-fit: fill;
+            height: 113vh;
+            object-fit: contain;
         }
         .waterboi{
             margin-top: 10px;
             margin-left: 25px;
             width: 325px;
-            height: 80vh;
-            object-fit: cover; 
+            height: 104vh;
+            object-fit: contain; 
         }
         .girl{
             margin-top: 10px;
             margin-left: 25px;
             width: 325px;
-            height: 80vh;
-            object-fit: cover;
+            height: 104vh;
+            object-fit: contain;
         }
         .click{
             background-color:  #742296;
@@ -874,43 +950,69 @@
         overflow: hidden;
     }
     .Navbar{
-         overflow: hidden;
+  
         display: flex;
         align-items: center;
         flex-direction: row;
         justify-content: space-evenly;
         margin-left: 10px;
-        margin-right: -45px;
+        margin-right: 50px;
     
         .logo{
             
         position: absolute;
         left: 28px;
         top: 10px;
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 195px;
+        height: 20vh;
+          }
+          a{
+            color: #742296;
+            text-decoration: none;
           }
           .purple{
             color: #742296;
-            display: none;
+            text-decoration: none;
           }
-          .log{
-            margin-right: -166px;
-            justify-content: right;
+          i{
+            color: #742296;
+          }
+          .logz{
+            // margin-right: -166px;
+            // justify-content: right;
+            width: 40px;
+            height: 30px;
     
+          }
+          .img2{
+            height: 26px;
+          }
+          .img1{
+            width: 160px;
+            margin-left: -44px;
+            margin-top: -8px;
           }
           .state{
+            display: flex;
             font-size: 27px;
             margin-top: 10px;
-            margin-left: 171px;
+            margin-left: 195px;
             padding: 10px;
+            list-style: none;
+            margin-right: 20px;
           }
-    
+          .ten{
+            margin-right: 20px;
+          }
         }
     
         .home{
             overflow: hidden;
             display: flex;
             flex-direction: row;
-            margin-right: 45px;
+            margin-right: 55px;
     
             .text{
                 display: flex;
@@ -923,7 +1025,7 @@
             }
             .h1{
                 font-family: "myfont";  
-                font-size: 18px;
+                font-size: 30px;
                 font-weight: bold;
             }
             .button1{
@@ -958,7 +1060,7 @@
             .pics{
                 display: flex;
                 flex-direction: column;
-                margin-left: 180px;
+                margin-left: 10px;
                 margin-right: 10px;
             }
             .photo{
@@ -971,8 +1073,8 @@
       .about{
         overflow: hidden;
         padding-top: 50px;
-        margin-left: 65px;
-        margin-right: 20px;
+        // margin-left: 65px;
+        // margin-right: 20px;
         display: flex;
         justify-content: space-evenly;
     
@@ -1003,7 +1105,7 @@
         }
         p{
             font-family: "myfont";  
-            width: 180px; 
+            width: 240px; 
         }
         .sec1{
             margin-left: -18px;
@@ -1017,6 +1119,8 @@
                 padding: 5px;
                 width: 140px;
                 margin-top: 30px;
+                position: relative;
+                top: 121px;
         }
         .play{
             height: 300px;
@@ -1037,6 +1141,7 @@
         .youtube{
             position: relative;
             display: flex;
+            margin-left: 120px;
         }
         
       }
@@ -1099,6 +1204,7 @@
         }
         .picc{
             padding-left: 90px;
+            height: 4vh;
         }
         h3{
             display: flex;
@@ -1134,10 +1240,14 @@
             font-weight: bold;
         }
         .babe{
-            margin-right: 75px;
+            
             height: 300px;
             width: 280px;
             margin-left: 7px;
+            margin-right: 75px;
+        }
+        .bride{
+            padding-left: 22px;
         }
         .title{
             font-size: 20px;
@@ -1171,13 +1281,17 @@
             font-size: 20px;
             font-weight: bold;
         }
+        .guyo{
+            position: relative;
+            top: 60px;
+        }
         .mother{
        position: relative;
        top: 40px;
         }
         .water{
        position: relative;
-       top: 40px;
+       top: 60px;
        display: none;
     
         }
@@ -1234,10 +1348,69 @@
   }
 
   @media (min-width:769px) and (max-width:1024px) { 
+
+    .Navbar{
+  
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 10px;
+        margin-right: 50px;
+    
+        .logo{
+            
+        position: absolute;
+        left: 28px;
+        top: 10px;
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 195px;
+        height: 20vh;
+          }
+          a{
+            color: #742296;
+            text-decoration: none;
+          }
+          .purple{
+            color: #742296;
+            text-decoration: none;
+          }
+          i{
+            color: #742296;
+          }
+          .logz{
+            // margin-right: -166px;
+            // justify-content: right;
+            width: 40px;
+            height: 30px;
+    
+          }
+          .img2{
+            height: 32px;
+            // margin-top: -25px;
+          }
+          .img1{
+            width: 160px;
+          }
+          .state{
+            display: flex;
+            font-size: 27px;
+            margin-top: 10px;
+            margin-left: 422px;
+            padding: 10px;
+            list-style: none;
+            margin-right: 20px;
+          }
+          .ten{
+            margin-right: 20px;
+          }
+        }
     .home{
+        overflow: hidden;
         display: flex;
         flex-direction: row;
-        margin-right: 45px;
+        // margin-right: 45px;
 
         .text{
             display: flex;
@@ -1247,7 +1420,8 @@
         }
         .h1{
             font-family: "myfont";  
-            font-size: 27px;
+            font-size: 34px;
+            font-weight: bolder;
         }
         .button1{
             background-color:  #742296;
@@ -1258,7 +1432,7 @@
             font-size: 22px;
         }
         p{
-            font-size: 29px;
+            font-size: 21px;
             font-family: "myfont";  
         }
         .button2{
@@ -1270,6 +1444,7 @@
         .photo2{
             position: relative;
             top: 20px;
+            height: 37vh;
         }
         .purple{
             color:  #742296;
@@ -1277,7 +1452,7 @@
         .pics{
             display: flex;
             flex-direction: column;
-            margin-left: 180px;
+            margin-left: 55px;
             margin-right: 10px;
         }
         .photo{
@@ -1287,9 +1462,10 @@
     }
 
     .about{
+        overflow: hidden;
         padding-top: 50px;
         margin-left: 65px;
-        margin-right: 20px;
+        // margin-right: 20px;
         display: flex;
         justify-content: space-evenly;
     
@@ -1297,7 +1473,7 @@
         .h2{
             font-size: 27px;
             margin-top: 20px;
-            margin-left: 11px;
+            margin-left: 38px;
             font-family: "myfont"; 
         }
         .pic{
@@ -1360,6 +1536,7 @@
         
       }
       .Services{
+        overflow: hidden;
         font-family: "myfont"; 
         padding-top: 40px;
         margin-left: 30px;
@@ -1411,11 +1588,18 @@
             align-items: end;
           
         }
+        .close {
+            padding-left: 177px;
+            height: 4vh;
+            margin-bottom: 11px;
+        }
         .hes{
             margin-bottom: -10px;
         }
         .picc{
             padding-left: 90px;
+            height: 53px;
+            margin-right: 23px;
         }
         h3{
             display: flex;
@@ -1425,9 +1609,10 @@
         }  
     }
     .members{
+        overflow: hidden;
         font-family: "myfont"; 
         padding-top: 40px;
-        margin-left: 65px;
+        margin-left: 35px;
         margin-right: 20px;
         .altogether{
             margin-left: 30px;
@@ -1466,6 +1651,7 @@
         }
       }
       .pics{
+        overflow: hidden;
         margin-top: 20px;
         text-align: center;
         align-items: center;
@@ -1489,7 +1675,7 @@
         .water{
        position: relative;
        top: 40px;
-       display: none;
+    //    display: none;
     
         }
         .word{
@@ -1505,6 +1691,7 @@
         }
       }
       .footer{
+        overflow: hidden;
         font-family: "myfont"; 
         margin-top: 40px;
         display: flex;
