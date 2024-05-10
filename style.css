@@ -127,6 +127,9 @@ body {
   border-bottom: 3px solid #742296;
   padding: 4px;
 }
+.home i {
+  font-size: 25px;
+}
 .home .photo2 {
   position: relative;
   top: 45px;
