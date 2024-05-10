@@ -30,8 +30,8 @@
     align-items: center;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-left: 10px;
-    margin-right: 50px;
+    // margin-left: 10px;
+    // margin-right: 50px;
 
     .logo{
         
@@ -497,7 +497,10 @@
   .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
   }
-  
+  .overlay.img2{
+    height: 16px;
+    margin-left: 10px;
+  }
   .overlay .closebtn {
     position: absolute;
     top: 20px;
@@ -522,8 +525,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        margin-left: 10px;
-        margin-right: 50px;
+       
     
         .menu{
             // position: absolute;
@@ -531,9 +533,9 @@
             right: 14px;
             color: black;
             margin-right: -150px;
-        margin-top: 17px;
+        margin-top: 5px;
           }
-
+          
         .dropdown{
             margin-left: -26px;
             margin-top: -198;
@@ -565,6 +567,7 @@
             justify-content: right;
     
           }
+          
           .logz{
             display: none;
           }
@@ -830,72 +833,63 @@
     
         }
       }
+      
       .pics{
-        overflow: hidden;
         margin-top: 20px;
         text-align: center;
         align-items: center;
         .basket{
        position: relative;
        top: 40px;
+       display: none;
         }
         .heading{
-            margin-bottom: 10px;
+            margin-bottom: 22px;
             font-weight: 600;
             font-size: 20px;
             font-weight: bold;
         }
         .mother{
        position: relative;
-       top: 40px;
+       top: 90px;
+       width: 120px;
        display: none;
+        }
+        .guyo{
+            width: 103px;   
+        }
+        .waterboi{
+            width: 115px;
+        }
+        .girl{
+            width: 115px;
         }
         .water{
        position: relative;
-       top: 40px;
-       height: 200px;
+       top: 90px;
+       width: 130px;
        display: none;
     
         }
-        .photos{
-            display: flex;
-            flex-direction: column;
-        }
         .word{
-            margin-top: 30px;
-            font-size: 25px;
+            margin-top: 11px;
+            font-size: 18px;
             font-weight: 400;
             font-weight: bold;
         }
         .insta{
             font-family: "myfont2";
         }
-        .guyo{
-            margin-left: 25px;
-            width: 325px;
-            height: 113vh;
-            object-fit: contain;
-        }
-        .waterboi{
-            margin-top: 10px;
-            margin-left: 25px;
-            width: 325px;
-            height: 104vh;
-            object-fit: contain; 
-        }
-        .girl{
-            margin-top: 10px;
-            margin-left: 25px;
-            width: 325px;
-            height: 104vh;
-            object-fit: contain;
-        }
         .click{
             background-color:  #742296;
+            font-family: "myfont";
                 color: white;
-                width: 100px;
-                margin-left: 138px;
+                padding: 6px;
+                font-size: 10px;
+                width: 120px;
+                text-decoration: none;
         }
+
       }
       .footer{
 
