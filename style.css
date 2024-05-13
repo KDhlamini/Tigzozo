@@ -488,8 +488,13 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    background-color: aqua;
+  }
+  .Navbar .img1 {
+    width: 137px;
   }
   .Navbar .menu {
+    background-color: purple;
     top: 9;
     right: 14px;
     color: black;
@@ -550,7 +555,7 @@ body {
     font-weight: bold;
   }
   .home .button1 {
-    margin-left: 41px;
+    margin-left: -5px;
     background-color: #742296;
     color: white;
     padding: 2px;
@@ -704,6 +709,9 @@ body {
     justify-content: end;
     align-items: end;
   }
+  .Services .close {
+    height: 7vh;
+  }
   .Services .hes {
     margin-bottom: -3px;
   }
@@ -756,9 +764,10 @@ body {
   }
   .members .names {
     font-size: 30px;
-    margin-top: 40px;
+    margin-top: 48px;
   }
   .members .name {
+    margin-top: 10px;
     font-size: 30px;
   }
   .pics {
@@ -799,7 +808,7 @@ body {
     display: none;
   }
   .pics .word {
-    margin-top: 11px;
+    margin-top: 30px;
     font-size: 18px;
     font-weight: 400;
     font-weight: bold;
@@ -841,12 +850,12 @@ body {
   }
   .footer .four {
     font-size: 8px;
-    margin-left: 200px;
+    margin-left: 203px;
     margin-top: -141px;
   }
   .footer .three {
-    font-size: 15px;
-    margin-right: 65px;
+    font-size: 10px;
+    margin-right: 88px;
     margin-top: -147px;
   }
   .footer .two {
