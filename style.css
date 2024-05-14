@@ -113,6 +113,9 @@ body {
 .home .purple {
   margin-left: -1px;
 }
+.home ::before {
+  margin-right: 15px;
+}
 .home p {
   font-family: "myfont";
 }
@@ -194,7 +197,7 @@ body {
   top: 45px;
   text-decoration: none;
 }
-.about #video {
+.about #more {
   height: 300px;
   width: 410px;
   margin-top: 30px;
@@ -490,13 +493,13 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: aqua;
+    background-color: #742296;
   }
   .Navbar .img1 {
     width: 137px;
   }
   .Navbar .menu {
-    background-color: purple;
+    background-color: blue;
     top: 9;
     right: 14px;
     color: black;
@@ -642,7 +645,7 @@ body {
     top: 18px;
     margin-left: 85px;
   }
-  .about #video {
+  .about #more {
     height: 300px;
     width: 320px;
     margin-top: 30px;
@@ -1032,7 +1035,7 @@ body {
     position: relative;
     top: 103px;
   }
-  .about #video {
+  .about #more {
     height: 300px;
     width: 320px;
     margin-top: 30px;
@@ -1386,7 +1389,7 @@ body {
     margin-top: 30px;
     top: 20px;
   }
-  .about #video {
+  .about #more {
     height: 300px;
     width: 320px;
     margin-top: 30px;
