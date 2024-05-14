@@ -502,7 +502,7 @@ body {
     color: black;
     margin-right: -150px;
     margin-top: 5px;
-    padding: 3px;
+    padding: 0px 5px;
   }
   .Navbar .dropdown {
     margin-left: -26px;
