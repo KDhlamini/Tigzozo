@@ -63,7 +63,7 @@
       }
       .img2{
         height: 26px;
-        margin-left: 30px;
+        margin-left: 1px;
       }
       .img1{
         width: 160px;
@@ -217,7 +217,7 @@
             text-decoration: none;
 
     }
-    .play{
+    #video{
         height: 300px;
         width: 410px;
         margin-top: 30px;
@@ -237,6 +237,7 @@
     .youtube{
         position: relative;
         display: flex;
+        margin-bottom: 30px;
     }
     
   }
@@ -521,6 +522,7 @@
         overflow: hidden;
     }
     .Navbar{
+        position: sticky;
          overflow: hidden;
         display: flex;
         flex-direction: row;
@@ -537,6 +539,7 @@
             color: black;
             margin-right: -150px;
         margin-top: 5px;
+        padding: 3px;
           }
           
         .dropdown{
@@ -603,7 +606,7 @@
                 font-weight: bold;
             }
             .button1{
-                margin-left: -5px;
+                margin-left: -8px;
                 background-color:  #742296;
                 color: white;
                 padding: 2px;
@@ -697,7 +700,7 @@
                 top: 18px;
                 margin-left: 85px;
         }
-        .play{
+        #video{
             height: 300px;
             width: 320px;
             margin-top: 30px;
@@ -923,7 +926,7 @@
 
         }
         .one{
-            font-size: 15px;
+            font-size: 10px;
             margin-left: 15px;
             width: 50%;
         }
@@ -934,13 +937,13 @@
             
         }
         .three{
-            font-size: 10px;
-            margin-right: 88px;
-            margin-top: -147px;
+            font-size: 8px;
+            margin-right: 113px;
+            margin-top: -100px;
             
         }
         .two{
-            font-size: 11px;
+            font-size: 8px;
             margin-top: 20px;
             width: 50%;
             margin-left: 15px;
@@ -1126,9 +1129,9 @@
                 width: 140px;
                 margin-top: 30px;
                 position: relative;
-                top: 121px;
+                top: 103px;
         }
-        .play{
+        #video{
             height: 300px;
             width: 320px;
             margin-top: 30px;
@@ -1264,7 +1267,7 @@
             
         }
         .two{
-            margin-left: -20px;
+            margin-left: -41px;
         }
         .name{
             font-size: 30px;
@@ -1513,8 +1516,9 @@
                 padding: 5px;
                 width: 140px;
                 margin-top: 30px;
+                top: 20px;
         }
-        .play{
+        #video{
             height: 300px;
             width: 320px;
             margin-top: 30px;
@@ -1730,4 +1734,23 @@
             padding-right: 15px;
         }
       }
+  }
+  @media (min-width:1399.98px) {
+    .home{
+        .photo{
+            object-fit: contain;
+        }
+        .photo2{
+            object-fit: contain;
+            position: relative;
+            top: 70px;
+        }
+    }
+    .Services {
+    .close {
+        padding-left: 177px;
+        height: 6vh;
+        margin-bottom: 11px;
+    }
+    }
   }
