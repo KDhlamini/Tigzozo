@@ -1742,6 +1742,8 @@
       }
   }
   @media (min-width:1399.98px) {
+    .Navbar {
+        margin-bottom: -35px;}
     .home{
         .photo{
             object-fit: contain;
@@ -1751,6 +1753,18 @@
             position: relative;
             top: 71px;
         }
+        .text {
+            width: 474px;
+            display: flex;
+            flex-direction: column;
+            margin-left: 80px;
+            margin-top: 144px;
+        }
+        .h1 {
+            font-family: "myfont";
+            font-size: 48px;
+            font-weight: bolder;
+        }
     }
     .Services {
     .close {
@@ -1758,5 +1772,11 @@
         height: 6vh;
         margin-bottom: 11px;
     }
+    .picc{
+        padding-left: 90px;
+        height: 6vh;
+        margin-bottom: 11px;
+    
     }
+  }
   }
