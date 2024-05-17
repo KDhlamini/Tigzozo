@@ -1630,4 +1630,33 @@ body {
     height: 6vh;
     margin-bottom: 11px;
   }
+}
+@media only screen and (min-width: 766.9px) and (max-width: 767.9px) {
+  .home {
+    margin-top: -28px;
+  }
+  .home .row > * {
+    flex-shrink: 0;
+    width: 25%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-top: var(--bs-gutter-y);
+  }
+  .home .button2 {
+    border-left: 4px solid #742296;
+    border-right: 4px solid #742296;
+    border-top: 2px solid #742296;
+    border-bottom: 2px solid #742296;
+  }
+  .members .bride {
+    margin-left: -70px;
+  }
+  .footer .one {
+    margin-left: 39px;
+  }
+  .footer .four {
+    margin-top: 25px;
+    margin-right: 6px;
+  }
 }/*# sourceMappingURL=style.css.map */
